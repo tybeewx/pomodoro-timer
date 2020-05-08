@@ -60,10 +60,8 @@ export default function App() {
       <div className="footer">
         <p>Thank you for viewing!</p>
         <p className="tag">
-          <p className="tag">
-            Check out my other projects on
-            {<a href="https://github.com/tybeewx"> github</a>}
-          </p>
+          Check out my other projects on
+          {<a href="https://github.com/tybeewx"> github</a>}
         </p>
       </div>
     </div>
