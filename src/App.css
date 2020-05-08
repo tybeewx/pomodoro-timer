@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
-
+@import url("https://fonts.googleapis.com/css?family=Galada&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -19,12 +19,12 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #87d7cc;
+  background-image: linear-gradient(#87d7cc, #ff6955);
   color: #2c888d;
 }
 
 h2 {
-  color: #49b2b8;
+  color: #2c7579;
   font-size: 30px;
   text-align: center;
   margin: 0;
@@ -33,6 +33,7 @@ h2 {
 .timer {
   color: #1f6e72;
   font-size: 150px;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
@@ -61,4 +62,42 @@ h2 {
 
 .buttons button:not(:last-child) {
   margin-right: 10px;
+}
+.footer {
+  font-family: "Galada", cursive;
+  opacity: 70%;
+  font-weight: lighter;
+  font-size: 20px;
+  position: fixed;
+  padding-bottom: 25px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 89, 89);
+  color: #f5f8ca;
+  text-align: center;
+}
+.tag {
+  font-family: "Galada", cursive;
+  font-weight: lighter;
+  font-size: 19px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 89, 89);
+  color: #1f6e72;
+  text-align: center;
+}
+a {
+  color: #1f6e72;
+  font-family: "Georgia", serif;
+  text-decoration: none;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: bold;
+}
+a:hover {
+  color: #f5f8ca;
+  transition: 0.3s;
 }

@@ -47,17 +47,24 @@ export default function App() {
   return (
     <div className="app">
       <h2>{title}</h2>
-
       <div className="timer">
         <span>{minutes}</span>
         <span>:</span>
         <span>{seconds}</span>
       </div>
-
       <div className="buttons">
         {!isRunning && <button onClick={startTimer}>Start</button>}
         {isRunning && <button onClick={stopTimer}>Stop</button>}
         <button onClick={resetTimer}>Reset</button>
+      </div>
+      <div className="footer">
+        <p>Thank you for viewing!</p>
+        <p className="tag">
+          <p className="tag">
+            Check out my other projects on
+            {<a href="https://github.com/tybeewx"> github</a>}
+          </p>
+        </p>
       </div>
     </div>
   );
