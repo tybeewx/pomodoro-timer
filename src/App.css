@@ -11,7 +11,7 @@ body {
   line-height: 1.5;
 }
 
-.container {
+.app {
   min-height: 100vh;
   padding-left: 20px;
   padding-right: 20px;
@@ -60,14 +60,13 @@ h2 {
 .buttons button:not(:last-child) {
   margin-right: 10px;
 }
-.footer {
+footer {
   font-family: "Galada", cursive;
   height: 90px;
   font-weight: lighter;
   font-size: 20px;
   position: fixed;
   left: 0;
-  padding-bottom: 94px;
   bottom: 0;
   width: 100%;
   background: #ffc;
