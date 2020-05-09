@@ -58,7 +58,7 @@ export default function App() {
         <button onClick={resetTimer}>Reset</button>
       </div>
       <div className="footer">
-        <h4>Thank you for viewing!</h4>
+        <h4 className="footer">Thank you for viewing!</h4>
         <h4 className="tag">
           Check out my other projects on
           {<a href="https://github.com/tybeewx"> github</a>}
