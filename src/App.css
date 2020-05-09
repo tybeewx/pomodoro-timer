@@ -71,7 +71,7 @@ h2 {
   width: 100%;
   background: #ffc;
   background: transparent;
-  color: #f5f8ca;
+  color: #f5f8caa9;
   text-align: center;
 }
 .tag {
@@ -85,14 +85,14 @@ h2 {
   width: 100%;
   background: #ffc;
   background-color: rgb(255, 89, 89);
-  color: #1f6e72;
+  color: #1f6e72c2;
   text-align: center;
 }
 a {
   color: #1f6e72;
   font-family: "Georgia", serif;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
   font-style: italic;
   font-weight: bold;
 }
