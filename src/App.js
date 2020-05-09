@@ -45,7 +45,7 @@ export default function App() {
   const seconds = padTime(timeLeft - minutes * 60);
 
   return (
-    <div className="app">
+    <div className="container">
       <h2>{title}</h2>
       <div className="timer">
         <span>{minutes}</span>

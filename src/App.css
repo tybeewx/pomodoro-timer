@@ -11,7 +11,7 @@ body {
   line-height: 1.5;
 }
 
-.app {
+.container {
   min-height: 100vh;
   padding-left: 20px;
   padding-right: 20px;
@@ -35,9 +35,6 @@ h2 {
   font-size: 150px;
   font-weight: bold;
   margin-bottom: 20px;
-}
-
-.buttons {
 }
 
 .buttons button {
@@ -65,16 +62,16 @@ h2 {
 }
 .footer {
   font-family: "Galada", cursive;
-  opacity: 70%;
+  height: 90px;
   font-weight: lighter;
   font-size: 20px;
   position: fixed;
-  padding-bottom: 94px;
   left: 0;
+  padding-bottom: 94px;
   bottom: 0;
   width: 100%;
   background: #ffc;
-  background-color: rgb(255, 89, 89);
+  background: rgb(255, 89, 89);
   color: #f5f8ca;
   text-align: center;
 }
@@ -86,7 +83,7 @@ h2 {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(255, 89, 89);
+  background: rgb(255, 89, 89);
   color: #1f6e72;
   text-align: center;
 }
