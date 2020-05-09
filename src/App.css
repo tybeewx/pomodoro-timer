@@ -62,31 +62,30 @@ h2 {
 }
 .footer {
   font-family: "Galada", cursive;
-  height: 30px;
-  opacity: 75%;
+  height: 25px;
   font-weight: lighter;
   font-size: 20px;
   position: fixed;
   left: 0;
   bottom: 0;
+  opacity: 80%;
   width: 100%;
   background: #ffc;
-  background: rgb(255, 89, 89);
+  background: transparent;
   color: #f5f8ca;
   text-align: center;
-  box-shadow: 0px -10px 10px #ff7a68ab;
 }
 .tag {
   font-family: "Galada", cursive;
   font-weight: lighter;
   font-size: 18px;
-  height: 25px;
-  position: relative;
+  height: 0;
+  position: fixed;
   left: 0;
-  bottom: 20px;
+  bottom: 0px;
   width: 100%;
-  opacity: 80%;
-  background: rgb(255, 89, 89);
+  background: #ffc;
+  background-color: rgb(255, 89, 89);
   color: #1f6e72;
   text-align: center;
 }
