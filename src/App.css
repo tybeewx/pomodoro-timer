@@ -60,9 +60,9 @@ h2 {
 .buttons button:not(:last-child) {
   margin-right: 10px;
 }
-footer {
+.footer {
   font-family: "Galada", cursive;
-  height: 90px;
+  height: 80px;
   font-weight: lighter;
   font-size: 20px;
   position: fixed;
@@ -77,10 +77,10 @@ footer {
 .tag {
   font-family: "Galada", cursive;
   font-weight: lighter;
-  font-size: 19px;
-  position: fixed;
+  font-size: 18px;
+  position: relative;
   left: 0;
-  bottom: 0;
+  bottom: 30px;
   width: 100%;
   background: rgb(255, 89, 89);
   color: #1f6e72;
